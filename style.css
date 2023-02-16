@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+}
+
+.sidebar img {
+    width: 40px;
+}
+
+.sidebar {
+    display: flex;
+    flex-direction: column;
+    gap: 100px;
+    margin-left: 2rem;
+    margin-top: 2rem;
+}
+
+.row {
+    display: flex;
+    gap: 10px;
+    text-align: center;
+}
+
+.row p {
+    padding-top: 9px;
+}
+
+.top-bar {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.top img {
+    width: 40px;
+}
+
+.bottom img {
+    width: 70px;
+}
+
+.top {
+    display: flex;
+    text-align: center;
+    justify-content: space-evenly;
+}
+
+.left {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.right {
+    display: flex;
+    gap: 30px;
+}
+
+input {
+    border: 1px solid white;
+    border-radius: 2rem;
+    width: 600px;
+    height: 2rem;
+    padding: 1rem;
+    background-color: rgb(136, 135, 135);
+}
+
+.bottom {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.bottom-left {
+    display: flex;
+}
+
+.buttons {
+    display: flex;
+    gap: 15px;
+}
+
+button {
+    background-color: darkblue;
+    padding: 1rem 2rem 1rem 2rem;
+    border: 1px solid white;
+    border-radius: 12px;
+    font-size: 1rem;
+    color: white;
+}
+
+button:hover {
+    cursor: pointer;
+    background-color: rgb(23, 23, 186);
+}
+
+button:active {
+    cursor: pointer;
+    background-color: red;
+}
