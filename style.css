@@ -19,8 +19,10 @@ body {
     display: flex;
     flex-direction: column;
     gap: 100px;
-    margin-left: 2rem;
-    margin-top: 2rem;
+    padding-left: 2rem;
+    padding-top: 2rem;
+    background-color: lightcyan;
+    grid-row: 1 / 3
 }
 
 .row {
@@ -33,10 +35,16 @@ body {
     padding-top: 9px;
 }
 
+.row p:hover {
+    cursor: pointer;
+}
+
 .top-bar {
     display: flex;
     flex-direction: column;
     gap: 40px;
+    padding-top: 2rem;
+    background-color: whitesmoke;
 }
 
 .top img {
@@ -50,7 +58,7 @@ body {
 .top {
     display: flex;
     text-align: center;
-    justify-content: space-evenly;
+    gap: 400px;
 }
 
 .left {
@@ -76,7 +84,7 @@ input {
 .bottom {
     display: flex;
     align-items: center;
-    justify-content: space-evenly;
+    gap: 400px;
 }
 
 .bottom-left {
@@ -105,4 +113,10 @@ button:hover {
 button:active {
     cursor: pointer;
     background-color: red;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    grid-template-rows: 1fr 5fr;
 }
