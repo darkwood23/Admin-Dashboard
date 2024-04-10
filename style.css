@@ -100,14 +100,16 @@ button {
     background-color: darkblue;
     padding: 1rem 2rem 1rem 2rem;
     border: 1px solid white;
-    border-radius: 12px;
+    border-radius: 6px;
     font-size: 1rem;
     color: white;
+    transition: .2s ease-in;
 }
 
 button:hover {
     cursor: pointer;
     background-color: rgb(23, 23, 186);
+    transform: scale(1.02);
 }
 
 button:active {
